@@ -34,23 +34,23 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 #### Como usar
 
-Clone este repositório:
+##### Clone este repositório:
 
-git clone https://github.com/seuusuario/analise-vagas.git
+1. git clone https://github.com/seuusuario/analise-vagas.git
 
-cd analise-vagas
+1. cd analise-vagas
 
-Prepare seus arquivos:
+##### Prepare seus arquivos:
 
-Adicione ao arquivo "base_vagas.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
+1. Adicione ao arquivo "base_vagas.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
 
-Adicione ao arquivo "palavras_irrelevantes.txt" as palavras que devem ser desconsideradas na análise (uma por linha).
+1. Adicione ao arquivo "palavras_irrelevantes.txt" as palavras que devem ser desconsideradas na análise (uma por linha).
 
-Execute o script:
+##### Execute o script:
 
-python analise_vagas.py
+1. python analise_vagas.py
 
-Verifique o arquivo resultado.txt gerado com os termos mais frequentes.
+1. Verifique o arquivo resultado.txt gerado com os termos mais frequentes.
 
 ##### Exemplo de saída (resultado.txt)
 
