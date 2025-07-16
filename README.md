@@ -1,4 +1,4 @@
- Análise de Termos Frequentes em Descrições de Vagas
+# Análise de Termos Frequentes em Descrições de Vagas
 
  Este projeto foi criado com o objetivo de analisar descrições de vagas de emprego (por exemplo, coletadas do LinkedIn) e identificar as palavras e expressões mais recorrentes nos anúncios. Essa análise ajuda candidatos a ajustarem seus currículos e perfis profissionais com base nos termos mais buscados, aumentando suas chances de compatibilidade ("match") com as oportunidades.
 
