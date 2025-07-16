@@ -5,7 +5,7 @@
 
  #### Funcionalidades
 
-- Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
+- Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas a 5-gramas).
 
 - Filtro inteligente de palavras irrelevantes definidas em um arquivo externo.
 
@@ -60,14 +60,19 @@ projetos: 8
 relatórios: 6
 
 2-GRAMAS:
-análise de: 5
-modelagem de: 4
+microsoft azure: 4
+power bi: 3
+pacote office: 2
 
 3-GRAMAS:
-análise de dados: 3
-ferramentas de bi: 2
+governança de dados: 4
+visualização de dados: 3
 
+4-GRAMAS:
+aplicação de técnicas estatísticas: 2
 
+5-GRAMAS:
+gestão e governança de dados: 3
 
 
 
