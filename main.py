@@ -2,70 +2,70 @@ from collections import Counter
 import re
 import os
 
-def carregar_irrelevantes(arquivo_irrelevantes):
-    if not os.path.exists(arquivo_irrelevantes):
-        print(f"Aviso: Arquivo '{arquivo_irrelevantes}' não encontrado. Nenhuma palavra será ignorada.")
+def load_stopwords(stopwords_file):
+    if not os.path.exists(stopwords_file):
+        print(f"Warning: File '{stopwords_file}' not found. No words will be ignored.")
         return set()
-    with open(arquivo_irrelevantes, 'r', encoding='utf-8') as f:
-        return set(p.strip().lower() for p in f if p.strip())
+    with open(stopwords_file, 'r', encoding='utf-8') as f:
+        return set(w.strip().lower() for w in f if w.strip())
 
-def gerar_ngrams(lista_palavras, n, irrelevantes):
+def generate_ngrams(word_list, n, stopwords):
     ngrams = []
-    for i in range(len(lista_palavras) - n + 1):
-        grupo = lista_palavras[i:i+n]
-        # Se n == 1, removemos se a palavra for irrelevante
+    for i in range(len(word_list) - n + 1):
+        group = word_list[i:i+n]
+        # If n == 1, remove if the word is a stopword
         if n == 1:
-            if grupo[0] not in irrelevantes:
-                ngrams.append(grupo[0])
+            if group[0] not in stopwords:
+                ngrams.append(group[0])
         else:
-            # Se a primeira OU a última palavra for uma irrelevante, ignorar
-            if grupo[0] in irrelevantes or grupo[-1] in irrelevantes:
+            # If the first OR last word is a stopword, ignore
+            if group[0] in stopwords or group[-1] in stopwords:
                 continue
-            ngrams.append(' '.join(grupo))
+            ngrams.append(' '.join(group))
     return ngrams
 
-def contar_ngrams_arquivo(caminho_arquivo, arquivo_irrelevantes):
-    irrelevantes = carregar_irrelevantes(arquivo_irrelevantes)
+def count_ngrams_in_file(input_file, stopwords_file):
+    stopwords = load_stopwords(stopwords_file)
 
-    with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
-        texto = arquivo.read().lower()
+    with open(input_file, 'r', encoding='utf-8') as file:
+        text = file.read().lower()
 
-    palavras = re.findall(r'\b\w+\b', texto)
+    words = re.findall(r'\b\w+\b', text)
 
-    contagem = {
-        '1-gramas': Counter(gerar_ngrams(palavras, 1, irrelevantes)),
-        '2-gramas': Counter(gerar_ngrams(palavras, 2, irrelevantes)),
-        '3-gramas': Counter(gerar_ngrams(palavras, 3, irrelevantes)),
-        '4-gramas': Counter(gerar_ngrams(palavras, 4, irrelevantes)),
-        '5-gramas': Counter(gerar_ngrams(palavras, 5, irrelevantes)),
+    counts = {
+        '1-grams': Counter(generate_ngrams(words, 1, stopwords)),
+        '2-grams': Counter(generate_ngrams(words, 2, stopwords)),
+        '3-grams': Counter(generate_ngrams(words, 3, stopwords)),
+        '4-grams': Counter(generate_ngrams(words, 4, stopwords)),
+        '5-grams': Counter(generate_ngrams(words, 5, stopwords)),
     }
 
-    return contagem
+    return counts
 
-def exportar_resultado(contagens, arquivo_saida):
-    with open(arquivo_saida, 'w', encoding='utf-8') as f:
-        for tipo, contador in contagens.items():
-            f.write(f"{tipo.upper()}:\n")
-            for item, qtd in contador.most_common():
-                if qtd > 1:
-                    f.write(f"{item}: {qtd}\n")
+def export_results(counts, output_file):
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for ngram_type, counter in counts.items():
+            f.write(f"{ngram_type.upper()}:\n")
+            for item, qty in counter.most_common():
+                if qty > 1:
+                    f.write(f"{item}: {qty}\n")
             f.write("\n")
 
-# Exemplo de uso
+# Example usage
 if __name__ == "__main__":
-    arquivo_base = 'base_vagas.txt'         
-    arquivo_irrelevantes = 'palavras_irrelevantes.txt'     
-    arquivo_saida = 'resultado.txt'      
+    input_file = 'jobs_base.txt'         
+    stopwords_file = 'stopwords.txt'     
+    output_file = 'results.txt'      
 
-    resultado = contar_ngrams_arquivo(arquivo_base, arquivo_irrelevantes)
+    results = count_ngrams_in_file(input_file, stopwords_file)
 
-    # Mostra no terminal
-    for tipo, contador in resultado.items():
-        print(f"\n{tipo.upper()}:")
-        for item, qtd in contador.most_common():
-            if qtd > 1:
-                print(f"{item}: {qtd}")
+    # Print to terminal
+    for ngram_type, counter in results.items():
+        print(f"\n{ngram_type.upper()}:")
+        for item, qty in counter.most_common():
+            if qty > 1:
+                print(f"{item}: {qty}")
 
-    # Exporta para .txt
-    exportar_resultado(resultado, arquivo_saida)
-    print(f"\nResultado exportado para: {arquivo_saida}")
+    # Export to .txt
+    export_results(results, output_file)
+    print(f"\nResults exported to: {output_file}")
