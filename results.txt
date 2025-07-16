@@ -1,4 +1,4 @@
-1-GRAMAS:
+1-GRAMS:
 dados: 34
 experiência: 11
 conhecimento: 10
@@ -126,7 +126,7 @@ mapeamento: 2
 elaboração: 2
 excel: 2
 
-2-GRAMAS:
+2-GRAMS:
 microsoft azure: 4
 power bi: 3
 pacote office: 2
@@ -140,7 +140,7 @@ equipes multidisciplinares: 2
 computação engenharia: 2
 data factory: 2
 
-3-GRAMAS:
+3-GRAMS:
 governança de dados: 4
 visualização de dados: 3
 aplicação de técnicas: 3
@@ -156,10 +156,10 @@ pipelines de dados: 2
 colaborar com equipes: 2
 dashboards e relatórios: 2
 
-4-GRAMAS:
+4-GRAMS:
 aplicação de técnicas estatísticas: 2
 técnicas estatísticas e computacionais: 2
 
-5-GRAMAS:
+5-GRAMS:
 gestão e governança de dados: 3
 

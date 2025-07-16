@@ -42,17 +42,17 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 ##### Prepare seus arquivos:
 
-1. Adicione ao arquivo "base_vagas.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
+1. Adicione ao arquivo "jobs_description.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
 
-1. Adicione ao arquivo "palavras_irrelevantes.txt" as palavras que devem ser desconsideradas na análise (uma por linha).
+1. Adicione ao arquivo "stopwords.txt" as palavras que devem ser desconsideradas na análise (uma por linha).
 
 ##### Execute o script:
 
 1. python contador_palavras.py
 
-1. Verifique o arquivo resultado.txt gerado com os termos mais frequentes.
+1. Verifique o arquivo "result.txt" gerado com os termos mais frequentes.
 
-##### Exemplo de saída (resultado.txt)
+##### Exemplo de saída (result.txt)
 
 1-GRAMAS:
 dados: 12

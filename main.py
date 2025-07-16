@@ -53,7 +53,7 @@ def export_results(counts, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    input_file = 'jobs_base.txt'         
+    input_file = 'jobs_description.txt'         
     stopwords_file = 'stopwords.txt'     
     output_file = 'results.txt'      
 
