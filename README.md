@@ -36,7 +36,7 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 ##### Clone este repositório:
 
-1. git clone https://github.com/stefaninilucas/contador_palavras.git
+1. git clone https://github.com/stefaninilucas/job_keyword_analyzer.git
 
 1. cd analise-vagas
 
@@ -48,7 +48,7 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 ##### Execute o script:
 
-1. python contador_palavras.py
+1. python main.py
 
 1. Verifique o arquivo "result.txt" gerado com os termos mais frequentes.
 
