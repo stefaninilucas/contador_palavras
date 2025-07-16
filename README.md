@@ -4,7 +4,7 @@
 
  #### Funcionalidades
 
- Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
+Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
 
 Filtro inteligente de palavras irrelevantes (stopwords) definidas em um arquivo externo.
 
@@ -12,7 +12,21 @@ Nas expressões (n-gramas), palavras irrelevantes são ignoradas apenas se estiv
 
 Exportação dos resultados para um arquivo .txt, organizado por tipo de expressão e ordenado por frequência.
 
-Como usar
+#### Motivação
+Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é uma maneira prática de:
+
+Aumentar a compatibilidade com os filtros de recrutadores (como ATS),
+
+Tornar seu perfil mais atrativo para recrutadores e sistemas automatizados,
+
+Alinhar melhor sua apresentação com as expectativas do mercado.
+
+#### Requisitos
+Python 3.7 ou superior
+Apenas bibliotecas padrão (collections, re, os)
+
+#### Como usar
+
 Clone este repositório:
 
 git clone https://github.com/seuusuario/analise-vagas.git
@@ -43,16 +57,7 @@ modelagem de: 4
 análise de dados: 3
 ferramentas de bi: 2
 
- Requisitos
-Python 3.7 ou superior
-Apenas bibliotecas padrão (collections, re, os)
 
 
-Motivação
-Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é uma maneira prática de:
 
-Aumentar a compatibilidade com os filtros de recrutadores (como ATS),
 
-Tornar seu perfil mais atrativo para recrutadores e sistemas automatizados,
-
-Alinhar melhor sua apresentação com as expectativas do mercado.
