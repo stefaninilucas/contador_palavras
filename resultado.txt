@@ -1,0 +1,166 @@
+1-GRAMAS:
+dados: 35
+experiência: 11
+conhecimento: 10
+engenharia: 8
+azure: 8
+análises: 7
+sql: 6
+data: 6
+projetos: 6
+gestão: 6
+oportunidades: 5
+área: 5
+ferramentas: 5
+áreas: 5
+pricing: 4
+trabalhar: 4
+indicadores: 4
+decisões: 4
+técnicas: 4
+estatísticas: 4
+desenvolvimento: 4
+governança: 4
+nuvem: 4
+soluções: 4
+microsoft: 4
+produtos: 3
+desempenho: 3
+desenvolver: 3
+buscamos: 3
+pacote: 3
+visualização: 3
+power: 3
+bi: 3
+capacidade: 3
+colaboração: 3
+habilidade: 3
+posição: 3
+empresa: 3
+manipulação: 3
+através: 3
+aplicação: 3
+computacionais: 3
+logística: 3
+análise: 3
+estatística: 3
+computação: 3
+python: 3
+responsável: 3
+apoiar: 3
+qualidade: 3
+equipes: 3
+dashboards: 3
+relatórios: 3
+melhoria: 3
+forte: 3
+processos: 3
+melhorias: 3
+políticas: 2
+estratégico: 2
+analítico: 2
+rentabilidade: 2
+baseadas: 2
+construir: 2
+clareza: 2
+impacto: 2
+chave: 2
+office: 2
+familiaridade: 2
+tableau: 2
+analítica: 2
+transformar: 2
+diferentes: 2
+lógico: 2
+problemas: 2
+nossas: 2
+crescer: 2
+time: 2
+clientes: 2
+melhor: 2
+produto: 2
+garantindo: 2
+excelência: 2
+mercado: 2
+bases: 2
+diversas: 2
+formato: 2
+necessário: 2
+criação: 2
+modelos: 2
+estatísticos: 2
+modelagem: 2
+forma: 2
+principais: 2
+afins: 2
+internos: 2
+requisitos: 2
+formação: 2
+matemática: 2
+economia: 2
+linguagens: 2
+programação: 2
+conhecimentos: 2
+r: 2
+educacionais: 2
+educação: 2
+multidisciplinares: 2
+integrar: 2
+fontes: 2
+criar: 2
+entender: 2
+atuar: 2
+incluindo: 2
+ciência: 2
+práticas: 2
+diferenciais: 2
+setor: 2
+sistemas: 2
+hyundai: 2
+analista: 2
+transformação: 2
+ia: 2
+otimizar: 2
+pipelines: 2
+organização: 2
+serão: 2
+gerenciar: 2
+colaborar: 2
+factory: 2
+operações: 2
+operacionais: 2
+dia: 2
+mapeamento: 2
+elaboração: 2
+excel: 2
+
+2-GRAMAS:
+microsoft azure: 4
+power bi: 3
+pacote office: 2
+bi tableau: 2
+transformar dados: 2
+técnicas estatísticas: 2
+modelos estatísticos: 2
+python sql: 2
+apoiar decisões: 2
+equipes multidisciplinares: 2
+computação engenharia: 2
+data factory: 2
+
+3-GRAMAS:
+governança de dados: 4
+engenharia de dados: 4
+visualização de dados: 3
+aplicação de técnicas: 3
+gestão e governança: 3
+pricing e rentabilidade: 2
+área de pricing: 2
+power bi tableau: 2
+estatísticas e computacionais: 2
+linguagens de programação: 2
+análise de dados: 2
+pipelines de dados: 2
+colaborar com equipes: 2
+dashboards e relatórios: 2
+

@@ -1,0 +1,132 @@
+Seu Cardápio Diário:
+
+ Atuação na definição das políticas de Pricing para os produtos de Crédito PJ e Antecipação de Recebíveis do iFood Pago
+ Trabalhar em um papel estratégico e analítico, conectando as frentes de Pricing e Rentabilidade para impulsionar resultados.
+ Realizar análises baseadas em dados, identificar oportunidades e construir indicadores que tragam clareza e impacto direto no desempenho do negócio.
+ Desenvolver e reforçar a exposição da área de Pricing como peça-chave na tomada de decisões.
+
+Ingredientes Que Buscamos:
+
+ Conhecimento técnico: experiência com SQL, Data Bricks, Pacote Office e de preferência familiaridade com ferramentas de visualização de dados (ThoughtSpot, QuickSight, Power BI, Tableau, etc).
+ Capacidade analítica e comunicativa: para transformar dados em insights estratégicos e defender ideias com clareza.
+ Colaboração: habilidade para se conectar com diferentes áreas.
+ Vontade de aprender: buscamos alguém que valorize o crescimento contínuo e esteja disposto a se desafiar.
+
+Para Realçar o Sabor:
+
+ Perfil lógico, questionador, comunicativo e estratégico, com paixão por resolver problemas e encontrar oportunidades antes de serem evidentes.
+ Capacidade de articular dados a partir de análises para inspirar decisões e deixar claro o impacto financeiro das nossas políticas.
+ Dedicação, resiliência e ambição para crescer não só na posição, mas também a área de Pricing e Rentabilidade como um todo.
+ 
+ Somos uma empresa de dados e por esse motivo, trabalhar na área core da empresa é muito empolgante e desafiador.
+
+Nosso time procura entregar aos clientes a melhor informação ou produto, garantindo o melhor nível de excelência das entregas, pois empregamos as melhores técnicas de manipulação de dados conhecidas no mercado. Nossas ferramentas são extremamente adequadas à manipulação de quantidade colossais de dados.
+
+Responsabilidades e atribuições
+
+Estruturação de bases de dados para fins analíticos através da junção e tratamento de diversas bases até que convirjam para o formato necessário para aplicação de técnicas estatísticas e computacionais;
+
+Criação de novos books de atributos, almejando a criação de variáveis que aumentem o poder preditivo dos modelos estatísticos da empresa;
+
+Automação de etapas do processo de modelagem, de forma a minimizar o esforço operacional necessário para desenvolvimento de um modelo;
+
+Desenvolvimento de análises através de aplicação de técnicas estatísticas e computacionais como regressão logística, redes neurais, análise de cluster, componentes principais e afins.
+
+Preparação de materiais para clientes internos e externos a fim de apresentar as análises realizadas de forma objetiva e bem estruturada
+
+Requisitos e qualificações
+
+Formação acadêmica:
+
+Estatística, ciências da computação, matemática, matemática aplicada, engenharia ou economia
+
+Experiência prévia requerida:
+
+Manipulação de banco de dados, conhecimento de linguagens de programação com foco em aplicação de técnicas computacionais/estatísticas;
+
+Conhecimentos específicos:
+
+Conhecimento em softwares como Python, SQL e R
+
+Você será responsável por organizar, analisar e transformar dados educacionais em informações úteis para apoiar decisões e melhorar a qualidade da educação pública. Atuará em projetos que envolvem modelagem estatística, visualização de dados e desenvolvimento de indicadores, sempre em colaboração com equipes multidisciplinares.
+
+ Coletar, limpar e integrar dados de diferentes fontes (como Censo Escolar e SAEB);
+ Criar modelos estatísticos e preditivos para entender padrões e apoiar decisões;
+ Desenvolver indicadores e dashboards sobre desempenho, equidade e aprendizagem;
+ Apoiar pesquisas e testes com análises estatísticas e simulações;
+ Produzir relatórios e apresentações para públicos diversos;
+ Trabalhar com engenheiros, cientistas de dados e gestores de produto;
+ Contribuir para a melhoria de produtos digitais com base em dados reais;
+ Atuar como Data Steward, respeitando as diretrizes de gestão e governança de dados da instituição, em relação ao ciclo de vida dos dados sob sua responsabilidade, incluindo a catalogação.
+ Formação em Estatística, Ciência de Dados, Computação, Engenharia, Economia ou áreas afins;
+ Experiência com análise de dados em larga escala, especialmente na área educacional;
+ Domínio de Python, R, SQL e ferramentas de machine learning;
+ Conhecimento em nuvem (AWS, Azure ou GCP) e visualização de dados (Power BI, Tableau);
+ Familiaridade com boas práticas de engenharia de dados, gestão e governança de dados e governança de dados sensíveis.
+
+DIFERENCIAIS
+
+ Experiência no setor público ou terceiro setor;
+ Conhecimento em Git, CI/CD e integração com sistemas educacionais;
+ Conhecimento de práticas em Gestão e Governança de Dados;
+ Noções de LGPD aplicadas à educação.
+ 
+ Na Hyundai Motor Brasil, buscamos profissionais comprometidos e apaixonados pela excelência. Estamos em busca de um(a) de Analista Sr de Engenharia de Dados talentoso(a) e motivado(a) para se juntar ao time de Transformação Digital e IA que está crescendo. O(a) candidato(a) ideal terá uma forte experiência em Engenharia de Dados e será responsável por criar, manter e otimizar pipelines de dados, garantindo a qualidade e a integridade dos dados em nossa organização. Adicionalmente trabalhará com projetos de implementação de Inteligência Artificial com soluções baseadas em nuvem. Conhecimento profundo em Microsoft Azure é essencial para esta posição.
+
+
+Se você tem interesse em seguir carreira no mercado automotivo e de crescer com a Hyundai neste momento de expansão de nossos negócios, participe!
+
+
+As principais atividades serão:
+
+Desenvolver e gerenciar pipelines de dados robustos e escaláveis;
+Integrar diversas fontes de dados em uma plataforma coesa;
+Implementar processos de ETL (Extração, Transformação e Carga) eficientes;
+Colaborar com equipes de desenvolvimento para garantir a qualidade dos dados;
+Monitorar e otimizar o desempenho dos sistemas de dados;
+Utilizar ferramentas e serviços do Microsoft Azure para gerenciar soluções de dados em nuvem.
+
+
+Se interessou? Os requisitos para concorrer à vaga são:
+
+Bacharelado em Ciência da Computação, Engenharia, ou área relacionada;
+Inglês avançado;
+Experiência comprovada em engenharia de dados;
+Proficiência em Microsoft Azure, incluindo Azure Data Factory, Azure SQL Database, e Azure Databricks;
+Conhecimento em linguagens de programação como Python, SQL;
+Habilidade para trabalhar em um ambiente dinâmico e colaborar com equipes multidisciplinares;
+Forte habilidade analítica e atenção aos detalhes.
+
+
+Serão diferenciais:
+
+Certificação em Microsoft Azure;
+Experiência com soluções do pacote Microsfot Fabric, como Data Factory, Data Engineering, Data Wareshouse e outras;
+Experiência em metodologias ágeis;
+Conhecimentos com aplicações e soluções de IA na nuvem;
+Capacidade para construir dashboards e relatórios interativos utilizando ferramentas de Power BI.
+
+A posição de Analista de Projetos e Operações é responsável por entender oportunidades de melhorias operacionais dentro de projetos, entendendo em colaboração com áreas de Produtos, Logística e de Business quais os pontos chave necessários para o sucesso de cada projeto, criando e acompanhando indicadores, levantando oportunidades de melhoria sistêmicas através de análises de dados e de experiência.
+
+Job Description
+
+Como será o seu dia a dia
+
+Mapeamento de gaps e análises de melhorias;
+Gestão de projetos junto às áreas internas e externas;
+Análise de dados para identificação de oportunidades e problemas;
+Elaboração de dashboards e relatórios;
+Elaboração e apresentação de propostas de melhorias em fóruns internos;
+Gestão de stakeholders.
+
+Requirements
+
+O que você precisa para assumir o desafio
+
+Graduação completa em Administração, Logística, Engenharia ou áreas correlatas;
+Conhecimento no Pacote Office (word, excel, powerpoint), principalmente Excel/ Google Sheets;
+Forte pensamento lógico e analítico, organização;
+Experiência em mapeamento e melhoria de processos operacionais e gerenciamento de projetos;
+Mandatório conhecimento em SQL;
+Desejável experiência em gestão de processos e/ou operações.
+Disponibilidade para atuar no formato híbrido (presencial 3x por semana na região da Faria Lima/SP).
