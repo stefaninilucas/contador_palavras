@@ -6,9 +6,9 @@
 
 - Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
 
-Filtro inteligente de palavras irrelevantes (stopwords) definidas em um arquivo externo.
+- Filtro inteligente de palavras irrelevantes (stopwords) definidas em um arquivo externo.
 
-Nas expressões (n-gramas), palavras irrelevantes são ignoradas apenas se estiverem no início ou no fim da expressão — permitindo capturar termos relevantes mesmo com preposições no meio.
+- Nas expressões (n-gramas), palavras irrelevantes são ignoradas apenas se estiverem no início ou no fim da expressão — permitindo capturar termos relevantes mesmo com preposições no meio.
 
 Exportação dos resultados para um arquivo .txt, organizado por tipo de expressão e ordenado por frequência.
 
