@@ -18,7 +18,9 @@ Para Realçar o Sabor:
  Capacidade de articular dados a partir de análises para inspirar decisões e deixar claro o impacto financeiro das nossas políticas.
  Dedicação, resiliência e ambição para crescer não só na posição, mas também a área de Pricing e Rentabilidade como um todo.
  
- Somos uma empresa de dados e por esse motivo, trabalhar na área core da empresa é muito empolgante e desafiador.
+------------------------------------------------------------------------------------------------------------------------ 
+ 
+Somos uma empresa de dados e por esse motivo, trabalhar na área core da empresa é muito empolgante e desafiador.
 
 Nosso time procura entregar aos clientes a melhor informação ou produto, garantindo o melhor nível de excelência das entregas, pois empregamos as melhores técnicas de manipulação de dados conhecidas no mercado. Nossas ferramentas são extremamente adequadas à manipulação de quantidade colossais de dados.
 
@@ -48,6 +50,8 @@ Conhecimentos específicos:
 
 Conhecimento em softwares como Python, SQL e R
 
+------------------------------------------------------------------------------------------------------------------------
+
 Você será responsável por organizar, analisar e transformar dados educacionais em informações úteis para apoiar decisões e melhorar a qualidade da educação pública. Atuará em projetos que envolvem modelagem estatística, visualização de dados e desenvolvimento de indicadores, sempre em colaboração com equipes multidisciplinares.
 
  Coletar, limpar e integrar dados de diferentes fontes (como Censo Escolar e SAEB);
@@ -71,10 +75,9 @@ DIFERENCIAIS
  Conhecimento de práticas em Gestão e Governança de Dados;
  Noções de LGPD aplicadas à educação.
  
- Na Hyundai Motor Brasil, buscamos profissionais comprometidos e apaixonados pela excelência. Estamos em busca de um(a) de Analista Sr de Engenharia de Dados talentoso(a) e motivado(a) para se juntar ao time de Transformação Digital e IA que está crescendo. O(a) candidato(a) ideal terá uma forte experiência em Engenharia de Dados e será responsável por criar, manter e otimizar pipelines de dados, garantindo a qualidade e a integridade dos dados em nossa organização. Adicionalmente trabalhará com projetos de implementação de Inteligência Artificial com soluções baseadas em nuvem. Conhecimento profundo em Microsoft Azure é essencial para esta posição.
-
-
-Se você tem interesse em seguir carreira no mercado automotivo e de crescer com a Hyundai neste momento de expansão de nossos negócios, participe!
+------------------------------------------------------------------------------------------------------------------------
+ 
+ O(a) candidato(a) ideal terá uma forte experiência em Engenharia de Dados e será responsável por criar, manter e otimizar pipelines de dados, garantindo a qualidade e a integridade dos dados em nossa organização. Adicionalmente trabalhará com projetos de implementação de Inteligência Artificial com soluções baseadas em nuvem. Conhecimento profundo em Microsoft Azure é essencial para esta posição.
 
 
 As principais atividades serão:
@@ -105,6 +108,8 @@ Experiência com soluções do pacote Microsfot Fabric, como Data Factory, Data 
 Experiência em metodologias ágeis;
 Conhecimentos com aplicações e soluções de IA na nuvem;
 Capacidade para construir dashboards e relatórios interativos utilizando ferramentas de Power BI.
+
+------------------------------------------------------------------------------------------------------------------------
 
 A posição de Analista de Projetos e Operações é responsável por entender oportunidades de melhorias operacionais dentro de projetos, entendendo em colaboração com áreas de Produtos, Logística e de Business quais os pontos chave necessários para o sucesso de cada projeto, criando e acompanhando indicadores, levantando oportunidades de melhoria sistêmicas através de análises de dados e de experiência.
 

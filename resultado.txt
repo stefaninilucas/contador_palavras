@@ -1,10 +1,10 @@
 1-GRAMAS:
-dados: 35
+dados: 34
 experiência: 11
 conhecimento: 10
-engenharia: 8
 azure: 8
 análises: 7
+engenharia: 7
 sql: 6
 data: 6
 projetos: 6
@@ -27,7 +27,6 @@ microsoft: 4
 produtos: 3
 desempenho: 3
 desenvolver: 3
-buscamos: 3
 pacote: 3
 visualização: 3
 power: 3
@@ -65,6 +64,7 @@ construir: 2
 clareza: 2
 impacto: 2
 chave: 2
+buscamos: 2
 office: 2
 familiaridade: 2
 tableau: 2
@@ -74,14 +74,10 @@ diferentes: 2
 lógico: 2
 problemas: 2
 nossas: 2
-crescer: 2
-time: 2
 clientes: 2
 melhor: 2
 produto: 2
 garantindo: 2
-excelência: 2
-mercado: 2
 bases: 2
 diversas: 2
 formato: 2
@@ -116,10 +112,6 @@ práticas: 2
 diferenciais: 2
 setor: 2
 sistemas: 2
-hyundai: 2
-analista: 2
-transformação: 2
-ia: 2
 otimizar: 2
 pipelines: 2
 organização: 2
@@ -150,10 +142,10 @@ data factory: 2
 
 3-GRAMAS:
 governança de dados: 4
-engenharia de dados: 4
 visualização de dados: 3
 aplicação de técnicas: 3
 gestão e governança: 3
+engenharia de dados: 3
 pricing e rentabilidade: 2
 área de pricing: 2
 power bi tableau: 2
@@ -163,4 +155,11 @@ análise de dados: 2
 pipelines de dados: 2
 colaborar com equipes: 2
 dashboards e relatórios: 2
+
+4-GRAMAS:
+aplicação de técnicas estatísticas: 2
+técnicas estatísticas e computacionais: 2
+
+5-GRAMAS:
+gestão e governança de dados: 3
 
