@@ -4,7 +4,7 @@
 
  #### Funcionalidades
 
-Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
+- Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
 
 Filtro inteligente de palavras irrelevantes (stopwords) definidas em um arquivo externo.
 
