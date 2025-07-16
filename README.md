@@ -7,7 +7,7 @@
 
 - Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas e 3-gramas).
 
-- Filtro inteligente de palavras irrelevantes (stopwords) definidas em um arquivo externo.
+- Filtro inteligente de palavras irrelevantes definidas em um arquivo externo.
 
 - Nas expressões (n-gramas), palavras irrelevantes são ignoradas apenas se estiverem no início ou no fim da expressão — permitindo capturar termos relevantes mesmo com preposições no meio.
 
@@ -42,9 +42,9 @@ cd analise-vagas
 
 Prepare seus arquivos:
 
-Adicione ao arquivo "base_dados_texto.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
+Adicione ao arquivo "base_vagas.txt" as descrições das vagas de seu interesse (você pode copiar e colar diretamente do LinkedIn).
 
-Edite o arquivo "palavras_desconsideradas.txt" com palavras que devem ser desconsideradas na análise (uma por linha).
+Adicione ao arquivo "palavras_irrelevantes.txt" as palavras que devem ser desconsideradas na análise (uma por linha).
 
 Execute o script:
 
