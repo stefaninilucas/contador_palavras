@@ -69,24 +69,24 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 ##### Exemplo de saída (result.txt)
 
-1-GRAMAS:
+1-GRAMAS:  
 dados: 12  
 projetos: 8  
 relatórios: 6  
 
-2-GRAMAS:
+2-GRAMAS:  
 microsoft azure: 4  
 power bi: 3  
 pacote office: 2  
 
-3-GRAMAS:
+3-GRAMAS:  
 governança de dados: 4  
 visualização de dados: 3  
 
-4-GRAMAS:
+4-GRAMAS:  
 aplicação de técnicas estatísticas: 2  
 
-5-GRAMAS:
+5-GRAMAS:  
 gestão e governança de dados: 3  
 
 
