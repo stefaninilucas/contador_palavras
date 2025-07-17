@@ -61,9 +61,9 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 1. Você será perguntado:
 
-    Quantas vezes um termo precisa se repetir para ser exibido.
+    - Quantas vezes um termo precisa se repetir para ser exibido.
 
-    Qual o maior tamanho de expressão (n-grama) a ser analisado (ou deixe em branco para automático).
+    - Qual o maior tamanho de expressão (n-grama) a ser analisado (ou deixe em branco para automático).
 
 1. Verifique o arquivo "result.txt" gerado com os termos mais frequentes.
 
