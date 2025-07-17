@@ -38,7 +38,7 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 1. git clone https://github.com/stefaninilucas/job_keyword_analyzer.git
 
-1. cd analise-vagas
+1. cd job_keyword_analyzer
 
 ##### Prepare seus arquivos:
 

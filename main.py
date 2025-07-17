@@ -4,7 +4,7 @@ import os
 
 def load_stopwords(stopwords_file):
     if not os.path.exists(stopwords_file):
-        print(f"Warning: File '{stopwords_file}' not found. No words will be ignored.")
+        print(f"Aviso: Arquivo '{stopwords_file}' não encontrado. Nenhuma palavra será ignorada.")
         return set()
     with open(stopwords_file, 'r', encoding='utf-8') as f:
         return set(w.strip().lower() for w in f if w.strip())
@@ -13,18 +13,18 @@ def generate_ngrams(word_list, n, stopwords):
     ngrams = []
     for i in range(len(word_list) - n + 1):
         group = word_list[i:i+n]
-        # If n == 1, remove if the word is a stopword
+        # Se n == 1, remove se a palavra for uma stopword
         if n == 1:
             if group[0] not in stopwords:
                 ngrams.append(group[0])
         else:
-            # If the first OR last word is a stopword, ignore
+            # Se a primeira OU última palavra for uma stopword, ignora
             if group[0] in stopwords or group[-1] in stopwords:
                 continue
             ngrams.append(' '.join(group))
     return ngrams
 
-def count_ngrams_in_file(input_file, stopwords_file):
+def count_ngrams_in_file(input_file, stopwords_file, min_repeats=2, max_n=None):
     stopwords = load_stopwords(stopwords_file)
 
     with open(input_file, 'r', encoding='utf-8') as file:
@@ -32,40 +32,51 @@ def count_ngrams_in_file(input_file, stopwords_file):
 
     words = re.findall(r'\b\w+\b', text)
 
-    counts = {
-        '1-grams': Counter(generate_ngrams(words, 1, stopwords)),
-        '2-grams': Counter(generate_ngrams(words, 2, stopwords)),
-        '3-grams': Counter(generate_ngrams(words, 3, stopwords)),
-        '4-grams': Counter(generate_ngrams(words, 4, stopwords)),
-        '5-grams': Counter(generate_ngrams(words, 5, stopwords)),
-    }
+    counts = {}
+    n = 1
+    while True:
+        ngram_list = generate_ngrams(words, n, stopwords)
+        counter = Counter(ngram_list)
+        # Só adiciona se houver pelo menos um n-grama com contagem >= min_repeats
+        if any(qty >= min_repeats for qty in counter.values()):
+            counts[f'{n}-gramas'] = counter
+            n += 1
+            if max_n is not None and n > max_n:
+                break
+        else:
+            break
 
     return counts
 
-def export_results(counts, output_file):
+def export_results(counts, output_file, min_repeats=2):
     with open(output_file, 'w', encoding='utf-8') as f:
         for ngram_type, counter in counts.items():
             f.write(f"{ngram_type.upper()}:\n")
             for item, qty in counter.most_common():
-                if qty > 1:
+                if qty >= min_repeats:
                     f.write(f"{item}: {qty}\n")
             f.write("\n")
 
-# Example usage
+# Função principal para executar o script
 if __name__ == "__main__":
     input_file = 'jobs_description.txt'         
     stopwords_file = 'stopwords.txt'     
     output_file = 'results.txt'      
 
-    results = count_ngrams_in_file(input_file, stopwords_file)
 
-    # Print to terminal
+    min_repeats = int(input("Mostrar apenas termos que se repetem pelo menos quantas vezes? [padrão=2]: ") or 2)
+    max_n_input = input("Até qual N-grama deseja analisar? (deixe em branco para automático): ")
+    max_n = int(max_n_input) if max_n_input.strip() else None
+
+    results = count_ngrams_in_file(input_file, stopwords_file, min_repeats=min_repeats, max_n=max_n)
+
+    # Imprimir no terminal
     for ngram_type, counter in results.items():
         print(f"\n{ngram_type.upper()}:")
         for item, qty in counter.most_common():
-            if qty > 1:
+            if qty >= min_repeats:
                 print(f"{item}: {qty}")
 
-    # Export to .txt
-    export_results(results, output_file)
-    print(f"\nResults exported to: {output_file}")
+    # Exportar para .txt
+    export_results(results, output_file, min_repeats=min_repeats)
+    print(f"\nResultados exportados para: {output_file}")

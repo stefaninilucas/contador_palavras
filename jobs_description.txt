@@ -18,7 +18,7 @@ Para Realçar o Sabor:
  Capacidade de articular dados a partir de análises para inspirar decisões e deixar claro o impacto financeiro das nossas políticas.
  Dedicação, resiliência e ambição para crescer não só na posição, mas também a área de Pricing e Rentabilidade como um todo.
  
------------------------------------------------------------------------------------------------------------------------- 
+---------- 
  
 Somos uma empresa de dados e por esse motivo, trabalhar na área core da empresa é muito empolgante e desafiador.
 
@@ -50,7 +50,7 @@ Conhecimentos específicos:
 
 Conhecimento em softwares como Python, SQL e R
 
-------------------------------------------------------------------------------------------------------------------------
+----------
 
 Você será responsável por organizar, analisar e transformar dados educacionais em informações úteis para apoiar decisões e melhorar a qualidade da educação pública. Atuará em projetos que envolvem modelagem estatística, visualização de dados e desenvolvimento de indicadores, sempre em colaboração com equipes multidisciplinares.
 
@@ -75,7 +75,7 @@ DIFERENCIAIS
  Conhecimento de práticas em Gestão e Governança de Dados;
  Noções de LGPD aplicadas à educação.
  
-------------------------------------------------------------------------------------------------------------------------
+----------
  
  O(a) candidato(a) ideal terá uma forte experiência em Engenharia de Dados e será responsável por criar, manter e otimizar pipelines de dados, garantindo a qualidade e a integridade dos dados em nossa organização. Adicionalmente trabalhará com projetos de implementação de Inteligência Artificial com soluções baseadas em nuvem. Conhecimento profundo em Microsoft Azure é essencial para esta posição.
 
@@ -109,7 +109,7 @@ Experiência em metodologias ágeis;
 Conhecimentos com aplicações e soluções de IA na nuvem;
 Capacidade para construir dashboards e relatórios interativos utilizando ferramentas de Power BI.
 
-------------------------------------------------------------------------------------------------------------------------
+----------
 
 A posição de Analista de Projetos e Operações é responsável por entender oportunidades de melhorias operacionais dentro de projetos, entendendo em colaboração com áreas de Produtos, Logística e de Business quais os pontos chave necessários para o sucesso de cada projeto, criando e acompanhando indicadores, levantando oportunidades de melhoria sistêmicas através de análises de dados e de experiência.
 
@@ -135,3 +135,213 @@ Experiência em mapeamento e melhoria de processos operacionais e gerenciamento 
 Mandatório conhecimento em SQL;
 Desejável experiência em gestão de processos e/ou operações.
 Disponibilidade para atuar no formato híbrido (presencial 3x por semana na região da Faria Lima/SP).
+
+----------
+
+Estamos em busca de uma pessoa Especialista de BI para integrar o time da Tuna!
+Por aqui, você vai encontrar um ambiente dinâmico, colaborativo, desafiador e com muitas oportunidades de desenvolvimento.
+
+
+
+
+Sua missão será transformar dados de diversas áreas em informações valiosas, apoiando decisões estratégicas que impulsionam a eficiência dos nossos processos e a excelência dos nossos produtos. Se você é uma pessoa analítica, curiosa e apaixonada por dados, essa vaga é pra você!
+
+
+
+
+Responsabilidades e atribuições
+
+Desenvolver e implementar soluções de Business Intelligence (BI) alinhadas às necessidades do negócio
+Criar e manter modelos de dados e pipelines que sustentem análises confiáveis e escaláveis;
+Integrar dados de múltiplas fontes para garantir uma visão consolidada dos indicadores;
+Construir relatórios e dashboards personalizados para diferentes áreas e níveis da organização;
+Realizar análises avançadas para identificar padrões, tendências e oportunidades de melhorias;
+Garantir a integridade, consistência e qualidade dos dados utilizados nas análise
+Apoiar áreas da empresa na interpretação dos dados e uso das ferramentas de BI
+Identificar e implementar melhorias contínuas nos processos de análise e visualização de dados
+
+
+Requisitos e qualificações
+
+Experiência comprovada no desenvolvimento e manutenção de soluções de BI;
+Sólidos conhecimentos em modelagem de dados e estruturação de bancos de dados relacionais e/ou analíticos;
+Domínio de ferramentas de BI (ex: Power BI, Tableau, Looker, etc.);
+Habilidades avançadas em análise de dados, com capacidade de traduzir números em histórias;
+Conhecimento em linguagens de consulta e manipulação de dados (ex: SQL, Python, etc.);
+Excelente comunicação para traduzir insights técnicos em informações compreensíveis para diferentes públicos
+Capacidade de trabalhar de forma colaborativa com equipes multidisciplinares e stakeholder
+
+----------
+
+Principais entregas e responsabilidades:
+
+Desenvolver e otimizar relatórios e dashboards no Power BI para apoiar a tomada de decisões estratégicas.
+Criar e gerenciar processos de ETL para ingestão, transformação e disponibilização de dados.
+Escrever, revisar e otimizar queries SQL para garantir performance e assertividade na análise de dados.
+Trabalhar em conjunto com equipes de negócios, tecnologia e produtos para levantar requisitos e oferecer soluções analíticas eficientes.
+Garantir a qualidade, governança e segurança dos dados ao longo de todo o pipeline analítico.
+Implementar e manter boas práticas de modelagem de dados (dimensional, estrela/floco) e arquitetura analítica (Data Lakehouse).
+Atuar na construção e sustentação de pipelines de dados nas camadas bronze, silver e gold.
+O que buscamos em você:
+
+Experiência sólida em projetos de Business Intelligence e engenharia de dados.
+Perfil analítico, com capacidade de transformar dados em insights acionáveis.
+Pro atividade, organização e boa comunicação para trabalhar de forma colaborativa.
+Autonomia para conduzir demandas e propor melhorias contínuas.
+Visão de negócio com foco em performance, resultados e eficiência operacional.
+Capacidade de atuação em ambiente ágil e multidisciplinar.
+Será um diferencial:
+
+Conhecimento no ERP Protheus (estrutura de dados, integrações e tabelas padrão).
+Conhecimento no Microsoft Fabric
+O que consideramos essencial:
+
+Experiência prática com Power BI (modelagem de dados, DAX e performance).
+Experiência com SQL (criação, otimização e manipulação de dados).
+Vivência em ambiente Azure: Data Factory, Databricks, Synapse e DevOps (CI/CD).
+Experiência com PySpark e Python para tratamento e análise de dados.
+Domínio em bancos de dados relacionais (ex.: SQL Server) e não relacionais (ex.: Cosmos DB).
+Conhecimento das camadas de dados: bronze, silver e gold.
+Formação superior completa em Engenharia, Ciência da Computação, Sistemas de Informação, ou áreas correlatas.
+Desejável: conhecimento em ferramentas de versionamento, como Git.
+
+----------
+
+Job Description
+
+Local: Matriz
+
+Horário comercial de segunda-feira a sexta-feira
+
+Responsibilities and assignments
+
+Realizar o desenvolvimento de dashboards e relatórios com ferramentas de BI;
+
+Monitorar sistemas, serviços bancos de dados e ferramentas;
+
+Participar de projetos de implementação de novos modelos de dados.
+
+Requirements And Qualifications
+
+Graduação completa ou cursando Ciências da computação ou áreas correlatas;
+
+Experiência com a linguagem SQL e bancos de dados relacionais;
+
+Conhecimentos em ferramentas de BI (Qlik, Power BI)
+
+----------
+
+Projetos desafiadores, que buscam cada vez mais soluções tecnológicas e humanas na experiência e no contato com as pessoas.
+Nossa cultura de mente aberta torna o ambiente horizontal para que as decisões sejam tomadas com base em fatos e dados, colocando os interesses dos clientes sempre em primeiro lugar.
+Uma empresa de pessoas que trabalham com autonomia e criatividade. Com espírito empreendedor, cada um de nós protagoniza a sua própria história.
+Apesar de todos terem autonomia para assumir as rédeas da própria vida, a nossa rotina é intensa por sonharmos grande e amarmos o que fazemos!
+
+
+O que esperamos de ti:
+
+Habilidade para conduzir análises de dados exploratórias e avançadas para extrair insights significativos, identificar tendências e padrões em conjuntos de dados complexos;
+Colaborar com diferentes equipes, incluindo analistas de negócios e cientistas de dados, para entender as necessidades analíticas e traduzi-las em soluções eficazes;
+Possuir habilidade de comunicação, com a capacidade de apresentar resultados de análises de forma clara e compreensível.
+
+
+Requisitos:
+
+Experiência sólida em análise de dados;
+Experiência prática em consultas SQL e manipulação de dados;
+Experiência em Power BI;
+Familiaridade com conceitos de modelagem de dados e otimização de consultas;
+Conhecimento sólido em ferramentas e serviços do Microsoft Azure, como: Azure Data Factory, Azure SQL Database e Azure Databricks;
+Inglês avançado.
+
+----------
+
+A área de Business Analytics tem como propósito resolver problemas de negócio complexos; em outras palavras, a equipe de Business Analytics utiliza técnicas de estatística, algoritmos, e métodos estocásticos para modelar dados internos e externos para gerar informações valiosas que possam conduzir ações de melhoria de negócios.
+
+
+Estamos em busca de um candidato que consiga aplicar técnicas analíticas para direcionar o negócio através de análises. A posição é responsável por traduzindo o negócio em números, avaliando comportamento de cliente, padrões nos dados, transformando essas informações em insights estratégicos.
+
+
+Responsabilidades e atribuições
+
+Analisar os dados transacionais do banco de dados gerando análises dos produtos e clientes de acordo com o projeto específico. As análises devem direcionar respostas de negócio com dados, desafiando hipóteses e quebrando paradigmas enraizado no negócio;
+Gerar storytelling para direcionar decisões e suportar questionamento das áreas de negócios que inclui: produtos vendidos, matéria prima e indústria (industria4.0);
+Manusear dados de diferentes fontes, consolidado os dados em estruturas tangíveis para análise. Os dados nem sempre vão estar no mesmo ambiente;
+Trabalhar em projetos de análise end to end passando pelos passos: Entendimento de negócio, identificação da fonte dos dados, processamento, criação da narrativa, apresentação e aplicação na área de negócio;
+Trabalhar com informações de clientes internos no mercado B2B, identificando quem são os melhores clientes e suas características: Classificação, tamanho, tipo de produto que compra, frequência, localização etc;
+Colaborar com as equipes de Infraestrutura de Dados, Engenharia de Dados e Sistemas, e Engenharia de Processos para arquitetar, desenvolver e integrar soluções e relatórios nos processos de mudanças organizacionais;
+Realizar análises para extrair tendências e cenários que ajudem na tomada de decisões de negócios, discutindo soluções técnicas.
+
+
+Requisitos e qualificações
+
+Pré-requisitos
+
+Superior completo em computação ou exatas e desejável Pós-Graduação;
+Conhecimento obrigatório SQL (avançado), Python e Databricks;
+Conhecimento desejável: Modelos supervisionada e não supervisionados, Machine Learning;
+Experiência de no mínimo 4 anos atuando na frente de analytics descrevendo comportamento de clientes, clusterização de produtos e direcionado o negócio com análises de dados.
+
+
+Desejável
+
+Inglês - Intermediário;
+Espanhol - Básico;
+Modelagem supervisionada e não supervisionada.
+
+
+Diferencial
+
+Ter trabalhado em análise de clientes, cestas de compra, modelos de retenção, modelos de churn.
+
+----------
+
+O que buscamos:
+
+
+Profissional para contribuir com a implementação e acompanhamento de métricas de gestão de produtos e soluções auxiliando na identificação de oportunidades de negócios;
+Apoiará demais times com processos e disponibilização de dash´s que auxilie na tomada de decisão;
+Será responsável por analisar dados da empresa e de nossos clientes, atuando em formato ágil de acordo com responsabilidades assumidas dentro da Sprint;
+Desenvolvimento de PypeLines de Dados, automatização do fluxo de execução (ETL) e painéis;
+Prática em coletar informações (ouvir users), analisar e estruturar o escopo referente a novas demandas, melhorias diretamente com as áreas chave da companhia;
+
+
+
+
+Conhecimentos necessários para mandar bem:
+
+
+Já ter apoiado na tomada de decisões estratégicas com base em dados;
+Conhecimento avançado em PowerBI;
+SQL (queries) são imprescindíveis;
+Ferramentas de ETL e Reports;
+Looker;
+Data Studio;
+Grafana;
+Jenkins;
+Inglês Avançado.
+
+----------
+
+Sobre a vaga:
+
+Estamos buscando um(a) Analista de Negócios Junior apaixonado(a) por transformar dados complexos em insights acionáveis para impulsionar nossa área de Atendimento PJ. Se você possui um forte domínio de SQL, habilidade analítica apurada e gosta de gerar valor para a tomada de decisão do negócios, essa pode ser a sua próxima grande oportunidade!
+
+Responsabilidade e atribuições:
+
+Analisar grandes volumes de dados de diversas fontes.
+Desenvolver e manter modelos de dados robustos e eficientes para suportar as necessidades da área de Atendimento PJ.
+Construir dashboards e relatórios interativos e de fácil compreensão.
+Realizar análises exploratórias para identificar oportunidades de otimização de processos e melhoria de KPIs.
+Comunicar de forma clara e concisa os insights e tendências identificados.
+Colaborar ativamente com as áreas de Atendimento, Back-Office, terceirizadas de atendimento e outras áreas de negócio para entender suas necessidades e fornecer soluções de dados eficazes.
+Garantir a qualidade e integridade dos dados utilizados nas análises
+
+Requisitos e qualificações:
+
+Experiência prévia como Analista de Dados.
+Experiência com dados e indicadores de Atendimento (NS, TPR, TMI, TMR, TME, TMA, NPS, Aderência, Qualidade, Treinamento, etc).
+Profundo conhecimento e domínio de SQL para manipulação e extração de dados de bancos de dados relacionais.
+Experiência na criação de visualizações de dados impactantes utilizando ferramentas como Databricks SQL, Tableau ou outras.
+Habilidade de traduzir dados complexos em informações claras e acionáveis para públicos diversos.
+Boa comunicação verbal e escrita, incluindo a capacidade de apresentar resultados de forma eficaz.
+Proatividade, autonomia e capacidade de trabalhar em equipe
