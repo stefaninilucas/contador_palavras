@@ -5,13 +5,22 @@
 
  #### Funcionalidades
 
-- Contagem de palavras individuais (1-gramas) e expressões compostas (2-gramas a 5-gramas).
+- Conta palavras individuais (unigramas) e combinações de palavras (n-gramas), como "power bi", "analista de dados", etc.
 
-- Filtro inteligente de palavras irrelevantes definidas em um arquivo externo.
+- Analisa automaticamente até o maior n-grama relevante (ou limitado pelo usuário).
 
-- Nas expressões (n-gramas), palavras irrelevantes são ignoradas apenas se estiverem no início ou no fim da expressão — permitindo capturar termos relevantes mesmo com preposições no meio.
+- Permite configurar um número mínimo de repetições para exibir os termos.
 
-- Exportação dos resultados para um arquivo .txt, organizado por tipo de expressão e ordenado por frequência.
+- Filtro inteligente de palavras irrelevantes definidas em um arquivo externo - "stopwords.txt".
+
+- Nas expressões n-gramas (2 ou mais palavras), as palavras irrelevantes (stopwords) só são ignoradas se estiverem no início ou no fim da expressão.
+
+- Exportação dos resultados para um arquivo - "results.txt", organizado por tipo de expressão e ordenado por frequência.
+
+
+#### Por que ignorar stopwords apenas nas extremidades
+
+Ao montar expressões como "analista de dados", a palavra "de" é importante dentro do contexto, mesmo sendo uma stopword. Por isso, o script só ignora expressões como "de dados" ou "analista de" — onde o termo fraco está na borda e provavelmente não agrega significado ao conjunto.
 
 
 #### Motivação
@@ -27,7 +36,7 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 
 #### Requisitos
 
-- Python 3.7 ou superior
+- Python 3.6 ou superior
 
 - Apenas bibliotecas padrão (collections, re, os)
 
@@ -49,6 +58,12 @@ Ajustar seu currículo às palavras mais recorrentes nas vagas de interesse é u
 ##### Execute o script:
 
 1. python main.py
+
+1. Você será perguntado:
+
+    Quantas vezes um termo precisa se repetir para ser exibido.
+
+    Qual o maior tamanho de expressão (n-grama) a ser analisado (ou deixe em branco para automático).
 
 1. Verifique o arquivo "result.txt" gerado com os termos mais frequentes.
 
